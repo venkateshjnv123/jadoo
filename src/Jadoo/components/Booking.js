@@ -18,7 +18,7 @@ function Booking(){
     const perks =[
         {id:1,
          img: destination,
-         head: 'Choose destination',
+         head: 'Choose destinations',
          data: 'Lorem ipsum dolor sit aamet, caonseture adipiscing elit. Urna, torot tempus'
         },
         {id:2,
