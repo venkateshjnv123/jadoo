@@ -1,0 +1,104 @@
+.footer{
+    margin-top: 200px;
+}
+
+.foot_head{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 66px;
+
+color: #181E4B;
+}
+
+.foot_data{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 124.5%;
+
+color: #5E6282;
+}
+
+.foot_head1{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 124.5%;
+text-align: center;
+
+color: #080809;
+}
+.list-items{
+    list-style-type: none;
+    list-style: none;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.foot_col1{
+    justify-content: flex-start;
+    text-align: left;
+}
+.list-item{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 124.5%;
+
+text-align: left;
+
+
+
+color: #5E6282;
+}
+
+.discover{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 124.5%;
+
+
+letter-spacing: 0.005em;
+
+
+text-align: left;
+margin-left: 12px;
+
+color: #5E6282;
+
+}
+
+@media screen and (max-width:1200px) { 
+    .list-items{
+        text-align: center;
+    }
+    .foot_col1{
+        justify-content: center;
+        text-align: center;
+    }
+    .list-item{
+        text-align: center;
+    }
+    .discover{
+        text-align: center;
+    }
+    .icons{
+        text-align: center;
+    }
+
+    .store{
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: 0px;
+    }
+}
